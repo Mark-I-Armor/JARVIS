@@ -1,0 +1,10 @@
+//Program of Odd Number.
+
+#include <bits/stdc++.h>
+using namespace std;
+int main() {
+  int n;
+  cin >> n;
+  if (n % 2 == 1)
+    cout << "Entered Number is Odd Number\n";
+}
