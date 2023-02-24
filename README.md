@@ -10,7 +10,9 @@ The Jarvis project utilizes high-level data structures and algorithms such as ha
 
 
 <img src="https://repository-images.githubusercontent.com/367071568/a0833ac3-dfd7-4386-951f-b59e0caa8c96" width="100%" />
-
+<br><a herf="https://replit.com/@MrStark10/Jarvis">Click Here to Check Out</a>
+<br>
+<img src="https://github.com/Mark-I-Armor/JARVIS/blob/main/src/Screenshot%202023-02-24%20at%201.48.33%20AM.png?raw=true" width="100%" />
 ## Authors
 
 Mender was created by the Rahul and Ayush.
