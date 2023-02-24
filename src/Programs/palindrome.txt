@@ -1,0 +1,16 @@
+//Program to Check Number is Palindrome.
+
+#include<bits/stdc++.h>
+using namespace std;
+int main()
+{
+  cout<<"Enter Number to Check Number\n";
+  int n;
+  cin>>n;
+  string temp=to_string(n);
+  string result=reverse(temp.begin(),temp.end());
+  if(temp==result)
+  cout<<"Given Number is Palindrome Number\n";
+  else
+  cout<<"Given Number is Not Palindrome Number\n";
+}

@@ -1,0 +1,19 @@
+//Program to Reverse the Integer.
+
+#include<bits/stdc++.h>
+using namespace std;
+
+int main()
+{
+cout<<"Enter Integer to Reverse\n";
+int n;
+cin>>n;
+int temp=0;
+int result=n;
+while(n)
+{
+temp+=n%10;
+n/=10;
+}
+cout<<"Reverse Of Number"<<result<<temp<<endl;
+}

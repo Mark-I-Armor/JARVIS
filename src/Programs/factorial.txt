@@ -1,0 +1,21 @@
+//Program to find Factorail of Number.
+#include<bits/stdc++.h>
+using namespaces std;
+int factorial(int n) {
+  if (n <= 1) {
+    return 1;
+  }
+  return n * factorial(n - 1);
+}
+
+void fact() {
+  cout << "Enter Number to find Factorail" << endl;
+  int n;
+  cin >> n;
+  cout << factorial(n);
+}
+int main()
+{
+  fact();
+return 0;
+}
