@@ -63,7 +63,7 @@ void isArmstrong()
     }
     if (sum == original)
     {
-        cout << "The entered number is an Armstrong number.\n";
+        cout << "The given entered number is an Armstrong number.\n";
     }
     else
     {
