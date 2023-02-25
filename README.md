@@ -9,8 +9,7 @@ The Jarvis project utilizes high-level data structures and algorithms such as ha
 
 <p align="center">
 ![alt text](src/giphy.gif)
-![alt text](src/giphy%20(3).gif)
-![alt text](src/giphy%20(1).gif)
+
 
 </p>
 
