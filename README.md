@@ -21,7 +21,7 @@ The Jarvis project utilizes high-level data structures and algorithms such as ha
 
 <br>
 <br>
-<img src="<img src="https://github.com/Mark-I-Armor/JARVIS/blob/main/src/giphy.gif?raw=true" />
+<img src="<img src="https://github.com/Mark-I-Armor/JARVIS/blob/main/src/giphy.gif?raw=true" width="100%" />
 
 
 <br>
