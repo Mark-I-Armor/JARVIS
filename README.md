@@ -7,7 +7,7 @@ The system design of the Jarvis project involves a modular approach with well-de
 
 The Jarvis project utilizes high-level data structures and algorithms such as hash maps, linked lists, trees, and sorting algorithms to provide efficient solutions to user queries. It also implements advanced search algorithms such as the A* search algorithm to provide accurate and relevant responses.
 
-
+<iframe src="https://giphy.com/embed/WJZdOtltegO76" width="480" height="195" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/iron-man-robert-downey-jr-marvel-WJZdOtltegO76">via GIPHY</a></p>
 
 <img src="https://repository-images.githubusercontent.com/367071568/a0833ac3-dfd7-4386-951f-b59e0caa8c96" width="100%" />
 
