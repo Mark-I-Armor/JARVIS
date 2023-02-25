@@ -8,7 +8,7 @@ The system design of the Jarvis project involves a modular approach with well-de
 The Jarvis project utilizes high-level data structures and algorithms such as hash maps, linked lists, trees, and sorting algorithms to provide efficient solutions to user queries. It also implements advanced search algorithms such as the A* search algorithm to provide accurate and relevant responses.
 
 
-![alt text](https://github.com/Mark-I-Armor/JARVIS/blob/main/src/giphy.gif)
+![alt text](src/giphy.gif)
 
 
 
