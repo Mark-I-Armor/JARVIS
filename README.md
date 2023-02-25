@@ -9,11 +9,11 @@ The Jarvis project utilizes high-level data structures and algorithms such as ha
 
 
 <div style="display: flex; flex-wrap: wrap;">
-  <div style="flex: 100%; padding: 5px;">
-    <img src="src/giphy%20(3).gif" style="width: 50%;">
+  <div style="flex: 50%; padding: 5px;">
+    <img src="src/giphy%20(3).gif" style="width: 100%;">
   </div>
-  <div style="flex: 100%; padding: 5px;">
-    <img src="src/giphy.gif" style="width: 50%;">
+  <div style="flex: 50%; padding: 5px;">
+    <img src="src/giphy.gif" style="width: 100%;">
   </div>
 </div>
 
