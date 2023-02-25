@@ -28,6 +28,10 @@ The Jarvis project utilizes high-level data structures and algorithms such as ha
 
 <br>
 
+<p align="center">
+  <img src="src/giphy.gif" width="100%" alt="Image">
+</p>
+
 ## Authors
 
 Mender was created by the Rahul and Ayush.
