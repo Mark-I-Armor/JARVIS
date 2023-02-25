@@ -6,14 +6,14 @@ JARVIS The Jarvis project is a chatbot application that uses C++ programming lan
 The system design of the Jarvis project involves a modular approach with well-defined interfaces between different modules. The main modules include the input module, response module, knowledge module, and output module. The input module takes user inputs and passes it to the response module. The response module utilizes high-level data structures and algorithms to analyze the user input and provide a suitable response. The knowledge module maintains a database of relevant information that can be used to provide responses to user queries. The output module formats the response and displays it to the user.
 
 The Jarvis project utilizes high-level data structures and algorithms such as hash maps, linked lists, trees, and sorting algorithms to provide efficient solutions to user queries. It also implements advanced search algorithms such as the A* search algorithm to provide accurate and relevant responses.
-
-
-
-    <img src="src/giphy%20(3).gif" style="width: 100%">
  
-  
-    <img src="src/giphy.gif" style="width: 100%">
- 
+ <p align="center">
+  <img src="src/giphy%20(3).giff" width="100%" alt="Image">
+</p>
+
+  <p align="center">
+  <img src="src/giphy.gif" width="100%" alt="Image">
+</p>
 
 <img src="https://repository-images.githubusercontent.com/367071568/a0833ac3-dfd7-4386-951f-b59e0caa8c96" width="100%" />
 
