@@ -9,10 +9,10 @@ The Jarvis project utilizes high-level data structures and algorithms such as ha
 
 
 
-    <img src="src/giphy%20(3).gif" style="width: 100%;">
+    <img src="src/giphy%20(3).gif" style="width: 100%">
  
   
-    <img src="src/giphy.gif" style="width: 100%;">
+    <img src="src/giphy.gif" style="width: 100%">
  
 
 <img src="https://repository-images.githubusercontent.com/367071568/a0833ac3-dfd7-4386-951f-b59e0caa8c96" width="100%" />
