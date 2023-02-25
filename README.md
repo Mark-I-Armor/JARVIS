@@ -21,7 +21,7 @@ The Jarvis project utilizes high-level data structures and algorithms such as ha
 
 <br>
 <br>
-<img src="<img src="https://github.com/Mark-I-Armor/JARVIS/blob/main/src/Screenshot%202023-02-24%20at%201.48.33%20AM.png?raw=true" width="100%" />" width="100%" />
+<iframe src="https://giphy.com/embed/MulsHQoVJVtQc" width="480" height="480" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/robert-downey-jr-iron-man-the-avengers-MulsHQoVJVtQc">via GIPHY</a></p>
 <p>
 
 
