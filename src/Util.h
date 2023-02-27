@@ -4,6 +4,8 @@
 #include <fstream>
 #include <iostream>
 #include <string>
+#define tolower(s) transform(s.begin(), s.end(), s.begin(), ::tolower);
+
 using namespace std;
 
 map<string, string> mp;
@@ -32,17 +34,18 @@ void callFun(string s) {
 vector<string> files;
 void Initialise() {
 
-  mp["even"] = "Programs/even.txt";
-  mp["odd"] = "Programs/odd.txt";
-  mp["even_odd"] = "Programs/Even_Odd.txt";
-  mp["palindrome"] = "Programs/palindrome.txt";
-  mp["reverse"] = "Programs/reverse.txt";
-  mp["nthprime"] = "Programs/nthprime.txt";
-  mp["strong"] = "Programs/isstrong.txt";
-  mp["armstrong"] = "Programs/armstrong.txt";
-  mp["prime"] = "Programs/prime.txt";
-  mp["happy"] = "Programs/happy.txt";
-  mp["factorial"] = "Program/factorial.txt";
+  mp["even"] = "even.txt";
+  mp["odd"] = "odd.txt";
+  mp["even_odd"] = "Even_Odd.txt";
+  mp["palindrome"] = "palindrome.txt";
+  mp["reverse"] = "reverse.txt";
+  mp["nthprime"] = "nthprime.txt";
+  mp["strong"] = "isstrong.txt";
+  mp["armstrong"] = "armstrong.txt";
+  mp["prime"] = "prime.txt";
+  mp["happy"] = "happy.txt";
+  mp["factorial"] = "factorial.txt";
+  mp["subarraysum"] = "subarraysum.txt";
 
   files.push_back("even");
   files.push_back("odd");
@@ -75,7 +78,7 @@ int Choice() {
 }
 
 void solve(string s) {
-
+  tolower(s);
   stringstream ss(s);
   string token;
   bool check = false;
@@ -85,17 +88,42 @@ void solve(string s) {
     if (mp[token] != "") {
 
       tokens.push_back(token);
+      string add = "";
       check = true;
       int choice = Choice();
+      if (s.find("optimised") != string::npos)
+        add += "optimised";
       if (choice == 1) {
+        cout << "Choose in which language you want code.\n1: C++\n2: Java\n3: "
+                "Python\n";
+        int Lang = 1;
+        cin >> Lang;
+        string source = "";
+        if (Lang == 1) {
+          source += "cpp";
+        } else if (Lang == 2) {
+          source += "java";
+        } else if (Lang == 3) {
+          source += "python";
+        } else {
+          cout << "Invalid Choice\n";
+          return;
+        }
+        if (add == "optimised") {
+          source += "/optimised";
+        } else {
+          source += "/";
+        }
+
         cout << "Processing";
         string Process = "...";
         for (int i = 0; i < Process.size(); i++) {
           std::cout << Process[i] << std::flush;
           std::this_thread::sleep_for(std::chrono::milliseconds(100));
         }
-        cout << endl;
-        std::ifstream file(mp[token]);
+
+        cout << "\n\n";
+        std::ifstream file(source + mp[token]);
         std::string line;
         while (std::getline(file, line)) {
           for (char c : line) {
@@ -159,7 +187,7 @@ void start() {
     solve(query);
     cin.ignore(numeric_limits<streamsize>::max(), '\n');
 
-  } while (s != "__");
+  } while (s != "___");
 }
 void print() {
   cout << "****** ****** ****** *          * ******  ****** " << endl;

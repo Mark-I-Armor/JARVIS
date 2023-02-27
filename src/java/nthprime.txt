@@ -1,0 +1,40 @@
+import java.lang.*;
+import java.io.*;
+import java.util.*;
+
+    
+class Main {
+    static boolean isPrime(int n)
+    {
+        for(int i=2;i*i<=n;i++)
+        {
+            if(n%i==0)
+            return false;
+        }
+        return true;
+    }
+	static void NthPrime()
+	{   System.out.println("Enter the Nth Prime You want\n");
+	    Scanner sc=new Scanner(System.in);
+	    int n;
+	    n=sc.nextInt();
+	   int count=n;
+	    int i=1;
+	    
+	    while(n>0)
+	    {   i++;
+	        if(isPrime(i)==true)
+	           {
+	          n--;
+	           }
+	           
+	       
+	    }
+	    System.out.println(count+"Nth Prime is "+i);
+	}
+	public static void main(String[] args)
+	{ 
+        NthPrime();
+    }
+}
+	

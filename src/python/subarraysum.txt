@@ -1,0 +1,8 @@
+def max_subarray_sum(arr):
+    max_sum = float('-inf')
+    for i in range(len(arr)):
+        for j in range(i, len(arr)):
+            subarray_sum = sum(arr[i:j+1])
+            if subarray_sum > max_sum:
+                max_sum = subarray_sum
+    return max_sum

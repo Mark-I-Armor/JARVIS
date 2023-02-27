@@ -1,0 +1,10 @@
+//Program of the Even Number
+
+#include <bits/stdc++.h>
+using namespace std;
+int main() {
+  int n;//Input Enter Number.
+  cin >> n;
+  if (n % 2 == 0)//Checking Condition for Even Number.
+    cout << "Entered Number is Even Number\n";
+}

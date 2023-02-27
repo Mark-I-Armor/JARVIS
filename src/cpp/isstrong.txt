@@ -1,0 +1,24 @@
+//Program to check whether givne number is strong or not.
+#include<bits/stdc++.h>
+using namespace std;
+void isStrong() {
+  int n;
+  cout << "Enter n to check if it's a strong number: ";
+  cin >> n;
+  int sum = 0, original = n;
+  while (n > 0) {
+    int digit = n % 10;
+    sum += factorial(digit);
+    n /= 10;
+  }
+
+  if (sum == original) {
+    cout << n << " is a strong number" << endl;
+  } else {
+    cout << n << " is not a strong number" << endl;
+  }
+}
+int main()
+{
+isStrong();
+}

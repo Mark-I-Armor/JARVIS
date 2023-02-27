@@ -1,0 +1,4 @@
+n=(input("Enter The Number"))
+num=n
+num = num[::-1]
+print("Reverse Of Input Number is ",num)

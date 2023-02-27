@@ -1,0 +1,22 @@
+//Program to find the Nth Prime Number.
+#include<bits/stdc++.h>
+using namespaces std;
+
+void nthPrime() {
+  int n;
+  cout << "Enter n to find nth prime: ";
+  cin >> n;
+  int count = 0, num = 2;
+  while (count < n) {
+    if (checkPrime(num)) {
+      count++;
+    }
+    num++;
+  }
+  cout << "The " << n << "th prime is: " << num << endl;
+}
+
+int main()
+{
+nthPrime();
+}

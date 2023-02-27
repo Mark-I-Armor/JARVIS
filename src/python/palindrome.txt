@@ -1,0 +1,7 @@
+n=(input("Enter The Number"))
+num=n
+num = num[::-1]
+if (num==n):
+    print("Enter Number is Palindrome")
+else:
+    print("Enter Number is not Palindrome");

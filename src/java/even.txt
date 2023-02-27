@@ -1,0 +1,20 @@
+import java.util.*;
+
+public class Main
+{   static void  even()
+{
+    Scanner sc=new Scanner(System.in);
+    int n;
+    n=sc.nextInt();
+    if(n%2==0)
+    {
+        System.out.println("Enter Number is Even");
+    }
+    else
+    System.out.println("Enter Number is Not Even");
+}
+	public static void main(String[] args) {
+	    
+	    even();
+	}
+}

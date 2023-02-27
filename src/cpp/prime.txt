@@ -1,0 +1,21 @@
+//Program to Check Given Number is Prime or not.
+#include<bits/stdc++.h>
+using namespaces std;
+void isPrime() {
+  int n;
+  cout << "Enter a number to check if it's prime: ";
+  cin >> n;
+  if (n <= 1) {
+    cout << n << " is not a prime number.\n";
+    return false;
+  }
+  for (int i = 2; i <= sqrt(n); i++) {
+    if (n % i == 0) {
+      cout << n << " is not a prime number.\n";
+    }
+  }
+  cout << n << " is a prime number.\n";
+}
+int main(){
+isPrime();
+}
